@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/3d-button"
-import { Triangle, ArrowRight } from "lucide-react"
+import Icon from "@/components/ui/icon"
+import { ArrowRight } from "lucide-react"
 import { motion } from "framer-motion"
 
 export function CTASection() {
@@ -23,7 +24,7 @@ export function CTASection() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 mb-6"
             >
-              <Triangle className="w-8 h-8 text-[rgba(255,117,38,1)]" />
+              <Icon name="UtensilsCrossed" size={32} className="text-[rgba(255,117,38,1)]" />
             </motion.div>
 
             <motion.h2
@@ -33,7 +34,7 @@ export function CTASection() {
               transition={{ duration: 0.6, delay: 0.3 }}
               className="font-serif text-4xl md:text-5xl font-bold mb-6"
             >
-              Готовы масштабировать агентство?
+              Подключите школу уже сегодня
             </motion.h2>
 
             <motion.p
@@ -43,7 +44,7 @@ export function CTASection() {
               transition={{ duration: 0.6, delay: 0.4 }}
               className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8 leading-relaxed"
             >
-              Станьте партнером Prism и создавайте конверсионные сайты, которые приносят реальные результаты вашим клиентам. Давайте расти вместе.
+              Начните бесплатно — без карты и договора. Первые заказы можно принимать уже завтра утром.
             </motion.p>
 
             <motion.div
@@ -54,10 +55,10 @@ export function CTASection() {
               className="flex flex-col sm:flex-row gap-4 justify-center items-center"
             >
               <Button size="lg" className="rounded-full" leadingIcon={ArrowRight}>
-                Записаться на звонок
+                Попробовать бесплатно
               </Button>
               <Button size="lg" variant="outline" className="rounded-full bg-transparent">
-                Смотреть работы
+                Записаться на демо
               </Button>
             </motion.div>
 
@@ -68,7 +69,7 @@ export function CTASection() {
               transition={{ duration: 0.6, delay: 0.6 }}
               className="text-sm text-muted-foreground mt-6"
             >
-              Без обязательств - Бесплатная консультация - Ответ в течение 24 часов
+              Бесплатный тариф навсегда · Настройка за 30 минут · Поддержка на русском языке
             </motion.p>
           </div>
         </motion.div>

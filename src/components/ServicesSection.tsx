@@ -3,22 +3,22 @@ import { motion } from "framer-motion"
 export function ServicesSection() {
   const services = [
     {
-      title: "Дизайн для конверсий",
+      title: "Онлайн-заказ еды",
       image: "/placeholder.svg?height=400&width=300",
       overlayImage: "/placeholder.svg?height=400&width=300",
     },
     {
-      title: "White-label решения",
+      title: "Контроль питания для родителей",
       image: "/placeholder.svg?height=400&width=300",
       overlayImage: "/placeholder.svg?height=400&width=300",
     },
     {
-      title: "Масштабируемая разработка",
+      title: "Управление меню столовой",
       image: "/placeholder.svg?height=400&width=300",
       overlayImage: "/placeholder.svg?height=400&width=300",
     },
     {
-      title: "Поддержка и развитие",
+      title: "Уведомления и история заказов",
       image: "/placeholder.svg?height=400&width=300",
       overlayImage: "/placeholder.svg?height=400&width=300",
     },
@@ -35,7 +35,7 @@ export function ServicesSection() {
             transition={{ duration: 0.8 }}
             className="font-serif text-5xl sm:text-6xl lg:text-7xl font-normal text-foreground mb-4 tracking-tight"
           >
-            Наши услуги
+            Возможности
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -44,7 +44,7 @@ export function ServicesSection() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="font-sans text-lg sm:text-xl text-muted-foreground"
           >
-            Все, что нужно вашему агентству для выдающихся результатов.
+            Всё, что нужно школе для удобного и прозрачного питания.
           </motion.p>
         </div>
 

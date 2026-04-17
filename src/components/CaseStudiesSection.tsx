@@ -3,31 +3,31 @@ import { motion } from "framer-motion"
 export function CaseStudiesSection() {
   const caseStudies = [
     {
-      client: "Stellar Analytics",
-      project: "Редизайн лендинга SaaS",
-      metric: "Рост конверсий на 127%",
-      description: "Полный редизайн главного лендинга продукта с A/B-тестированием и оптимизацией конверсий.",
+      client: "Школа №47, Москва",
+      project: "Переход на электронные заказы",
+      metric: "Очереди сократились на 80%",
+      description: "1 200 учеников перешли на предзаказ еды. Столовая успевает приготовить точное количество порций.",
       image: "/placeholder.svg?height=400&width=600",
     },
     {
-      client: "Nova Industries",
-      project: "White-label платформа",
-      metric: "Онбординг в 3 раза быстрее",
-      description: "Создали масштабируемое white-label решение для обслуживания 50+ клиентов одновременно.",
+      client: "Гимназия №3, Казань",
+      project: "Контроль питания для родителей",
+      metric: "95% родителей подключились",
+      description: "Родители видят ежедневное меню и историю заказов ребёнка в режиме реального времени.",
       image: "/placeholder.svg?height=400&width=600",
     },
     {
-      client: "Quantum Dynamics",
-      project: "Оптимизация e-commerce",
-      metric: "Рост выручки на 85%",
-      description: "Оптимизировали checkout и внедрили конверсионные паттерны дизайна по всей платформе.",
+      client: "Школа №15, Новосибирск",
+      project: "Оптимизация закупок столовой",
+      metric: "Экономия 15% на продуктах",
+      description: "Администрация получила точные данные о спросе и смогла сократить закупки и списания.",
       image: "/placeholder.svg?height=400&width=600",
     },
     {
-      client: "Alpine Ventures",
-      project: "Перезапуск сайта агентства",
-      metric: "200+ лидов в месяц",
-      description: "Стратегический редизайн для лидогенерации с интеграцией CRM и автоматизацией.",
+      client: "Лицей №1, Екатеринбург",
+      project: "Заказы для учителей",
+      metric: "100+ учителей используют",
+      description: "Учителя заказывают обед во время урока — к перемене еда уже готова и ждёт на стойке.",
       image: "/placeholder.svg?height=400&width=600",
     },
   ]
@@ -43,7 +43,7 @@ export function CaseStudiesSection() {
             transition={{ duration: 0.8 }}
             className="font-serif text-4xl md:text-5xl font-bold mb-4"
           >
-            Кейсы
+            Истории успеха
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -52,7 +52,7 @@ export function CaseStudiesSection() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg text-muted-foreground max-w-2xl mx-auto"
           >
-            Реальные результаты агентств, с которыми мы работали для роста и конверсий.
+            Реальные результаты школ, которые уже перешли на умную столовую.
           </motion.p>
         </div>
 
